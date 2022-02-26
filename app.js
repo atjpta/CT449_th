@@ -1,6 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-const setupContactRoutes = require("./app/routes/conntact.routes");
+const setupContactRoutes = require("./app/routes/contact.routes");
+
+
 
 const app = express();
 

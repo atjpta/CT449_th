@@ -41,4 +41,4 @@ module.exports = (app) => {
     // router.delete("/:id", contacts.delete);
 
     
-}
+};
