@@ -155,5 +155,4 @@ exports.deleteAll = async (req, res, next) => {
         message: `${data.deletedCount} contacts were deleted successfully`,
     });
 
-    //fsuf
 }
