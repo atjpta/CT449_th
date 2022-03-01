@@ -1,4 +1,3 @@
-// const { response } = require("express");
 
 class BadRequestError extends Error {
     constructor(statusCode, message) {
