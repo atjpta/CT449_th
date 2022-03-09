@@ -17,3 +17,7 @@ const PORT = config.app.port;
 app.listen(PORT, () => {
     console.log(`Sever is running on port${PORT}.`);
 });
+
+app.post("/test", (req, res) => {
+    console.log(req.body);
+})

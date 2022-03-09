@@ -21,7 +21,14 @@ const schema = mongoose.Schema(
     }
 );
 
-schema.method("toJSON", () => {
+// xài k dc 
+// schema.method("toJSON", () => {
+//     const { __v, _id, ...object } = this.toObject();
+//     object.id = _id;
+//     return object;
+// });
+
+schema.method('toJSON', function () {
     const { __v, _id, ...object } = this.toObject();
     object.id = _id;
     return object;

@@ -16,7 +16,7 @@ module.exports = (app) => {
         .get(contacts.findOne)
         .put(contacts.update)
         .delete(contacts.delete);
-    
+
     app.use("/api/contacts", router);
 
     // //retrieve all contacts
